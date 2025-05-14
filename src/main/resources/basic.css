@@ -1,0 +1,57 @@
+.root {
+    -fx-background-image: url("https://www.luontoon.fi/_next/image?url=https%3A%2F%2Fluontoon-fi-cms-production.druid.fi%2Fsites%2Fdefault%2Ffiles%2F2024-07%2F01_Koli_pahakoli-aamu_MarkoHaapalehto.jpg&w=3840&q=75");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+    -fx-font-family: "Segoe UI", sans-serif;
+
+}
+
+.label {
+    -fx-font-size: 24px;
+    -fx-text-fill: #0f32d3;
+    -fx-font-weight: bold;
+    -fx-padding: 10 0 20 0;
+}
+
+.table-view {
+    -fx-background-color: rgba(255, 255, 255, 0.85);
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #2a4d69;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-size: 35px;
+    -fx-border-color: transparent;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.table-row-cell {
+    -fx-font-size: 13px;
+}
+
+.table-row-cell:filled:selected {
+    -fx-background-color: #4b86b4;
+    -fx-text-fill: white;
+}
+
+.button {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #2c5f95;
+    -fx-font-size: 15px;
+    -fx-background-radius: 20px;
+}
+
+.button:hover {
+    -fx-background-color: #afafaf;
+    -fx-text-fill: #0050ff;
+}
